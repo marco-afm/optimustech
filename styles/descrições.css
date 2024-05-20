@@ -1,0 +1,28 @@
+.descrições {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.container__descrição__lista {
+    width: 22%;
+}
+
+/* .descrição__lista {} */
+
+.descrição__texto-destaque {
+    font-weight: 600;
+    font-size: 3.75rem;
+    color: var(--vinho);
+}
+
+.descrição__título {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--azul-marinho);
+    margin: 1em 0;
+}
+
+.descrição__texto {
+    line-height: 1.5em;
+}

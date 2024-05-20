@@ -1,0 +1,51 @@
+.rodapé {
+    display: grid;
+    text-align: center;
+    width: 55%;
+    margin: 5em 0;
+    gap: 2em;
+}
+
+.rodapé__título {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--azul-marinho);
+}
+
+.rodapé__texto {
+    font-size: 1.25rem;
+}
+
+.container__cadastro {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1em;
+}
+
+.cadastro {
+    color: var(--cinza);
+    padding: 0.75em 1em;
+    width: 50vmin;
+    border-radius: 8px;
+    border: solid 1px var(--cinza-claro);
+    font-size: 1rem;
+}
+
+.cadastro::placeholder {
+    border: none;
+}
+
+.rodapé__botão {
+    padding: 0 1em;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: var(--vinho);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+}
+
+.rodapé__sub-texto {
+    color: var(--cinza-claro);
+}

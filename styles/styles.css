@@ -1,0 +1,29 @@
+@import url("../styles/reset.css");
+@import url("../styles/cabecalho.css");
+@import url("../styles/principal.css");
+@import url("../styles/bio.css");
+@import url("../styles/descrições.css");
+@import url("../styles/vagas.css");
+@import url("../styles/feedback.css");
+@import url("../styles/cadastro.css");
+
+:root {
+    --branco: #FFFFFF;
+    --azul-marinho: #101828;
+    --vinho: #8E2424;
+    --hover-vinho: #c53333;
+    --cinza: #667085;
+    --cinza-claro: #98A2B3;
+    --hover-cinza: #f1f1f1;
+
+    --font-principal: "Inter";
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--branco);
+    color: var(--cinza);
+    font-size: 1rem;
+    font-family: var(--font-principal);
+    font-weight: 400;
+}

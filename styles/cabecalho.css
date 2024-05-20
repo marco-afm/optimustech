@@ -1,0 +1,61 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    padding: 0.5em 0;
+    border-bottom: solid 1px var(--hover-cinza);
+}
+
+
+/* div1 - logo */
+/* 
+.container__logo {}
+
+.logo__link {}
+*/
+
+.logo__img {
+    padding: 1em 0;
+}
+/* fim - div1 */
+
+
+/* div2 - páginas */
+.páginas {
+    display: flex;
+    margin: 0 auto 0 5%;
+    /* gap: 1em; */
+}
+
+.páginas__link {
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+    padding: 0.6em 1em;
+    border-radius: 6px;
+}
+
+.páginas__link:hover {
+    background-color: var(--hover-cinza);
+}
+/* fim - div2 */
+
+
+/* div3 - botões */
+/* 
+.botões {}
+
+.botões__link {}
+*/
+
+.botão-cadastrar {
+    background-color: var(--vinho);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+.botão-cadastrar:hover {
+    background-color: var(--hover-vinho);
+}
+/* fim - div3 */

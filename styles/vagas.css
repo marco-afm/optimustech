@@ -1,0 +1,68 @@
+.vagas {
+    display: inline;
+    text-align: center;
+    margin: 12em 0 6em 0;
+}
+
+.vagas__texto-destaque {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--vinho);
+    background-color: rgba(142, 36, 36, 0.075);
+    padding: 0.125em 0.5em;
+    border-radius: 16px;
+}
+
+.vagas__título {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--azul-marinho);
+    margin: 0.75em 0;
+}
+
+.vagas__texto {
+    font-size: 1.25rem;
+}
+
+.vagas__banner {
+    margin: 5em 0 2em 0;
+}
+
+
+/* ramos */
+.container__ramos {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ramo__título {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--azul-marinho);
+    margin-top: 3em;
+}
+
+.ramo__descrição {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5em;
+    margin: 2em 0;
+    border: solid 1px var(--hover-cinza);
+    border-radius: 16px;
+    gap: 2em;
+}
+
+.ramo__descrição__título {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--azul-marinho);
+}
+
+.ramo__descrição__texto {
+    font-weight: 500;
+}
+/* fim - ramos */
